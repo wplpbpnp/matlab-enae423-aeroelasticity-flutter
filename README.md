@@ -23,8 +23,14 @@ Testudo: `https://app.testudo.umd.edu/soc/search?courseId=ENAE423&sectionId=&ter
 
 1. Open MATLAB in the repo root.
 2. Start with `panel_flutter.m` (primary project-style script in this repo).
-3. Use the `hw*.m` scripts for supporting course examples and derivation checks.
-4. Compare results with the published PDFs in `html/`, especially `html/panel_flutter.pdf`.
+3. The script builds nondimensional mass/stiffness/aerodynamic matrices and sweeps `q_bar` to estimate flutter onset from modal behavior.
+4. Use the `hw*.m` scripts for supporting course examples and derivation checks.
+5. Compare results with the published PDFs in `html/`, especially `html/panel_flutter.pdf`.
+
+## Dependencies / Compatibility Notes
+
+- `panel_flutter.m` uses Symbolic Math (`syms`, symbolic differentiation/integration) before converting matrices to numeric form.
+- The script generates figures for modal damping/frequency trends and prints matrices to the MATLAB console.
 
 ## Suggested Showcase Files
 

@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# MATLAB editor/autosave artifacts
+*.asv
+*.autosave
+*.m~
+*.mlx.autosave
+
+# MATLAB build/cache artifacts
+*.slxc
+*.mex*
+
+# Local environment noise
+*.swp
+*.swo

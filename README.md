@@ -32,7 +32,7 @@ Testudo: `https://app.testudo.umd.edu/soc/search?courseId=ENAE423&sectionId=&ter
 - `panel_flutter.m` uses Symbolic Math (`syms`, symbolic differentiation/integration) before converting matrices to numeric form.
 - The script generates figures for modal damping/frequency trends and prints matrices to the MATLAB console.
 
-## Suggested Showcase Files
+## Highlighted Files
 
 - `panel_flutter.m`
 - `hw7_redo.m` or `hw8*.m` (if they contain stronger analysis plots)
